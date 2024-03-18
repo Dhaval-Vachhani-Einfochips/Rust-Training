@@ -9,8 +9,8 @@ fn main()
 fn get_day_type(day:u8) ->&'static str
 {
     let day_type = match day {
-        1 | 2 | 3 | 4 | 5 | 6 => "Weekday",
-        7 => "Weekend",
+        2 | 3 | 4 | 5 | 6 => "Weekday",
+        1 | 7 => "Weekend",
         _ => "Invalid day"
     };
     
